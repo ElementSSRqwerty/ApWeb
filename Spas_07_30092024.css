@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.listano{
+    background-color: burlywood;
+    outline-style: dashed;
+}
+
+.lista{
+    background-color: cadetblue;
+    outline-style: dashed;
+}
+.sublista{
+    list-style-type: upper-roman;
+}
+
+.listadef{
+    background-color: chocolate;
+    outline-style: dashed;
+}

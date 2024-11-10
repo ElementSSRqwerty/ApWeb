@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{ 
+    text-align: center;
+}
+div{
+    padding: 30px;
+}
+.Negro{
+    background-color: rgb(64, 76, 76);
+    margin-bottom: 5px;
+    text-align: left;
+    clear: both;
+    border-bottom: 30px solid white;
+}
+.Azul{
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.Amarillo{
+    background-color: yellow;
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.Rojo{
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.Verde{
+    background-color: green;
+    margin-top: 30px;
+    border-top: 30px solid white;
+    text-align: left;
+    clear: both;
+}

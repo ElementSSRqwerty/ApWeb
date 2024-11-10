@@ -1,0 +1,28 @@
+body{
+    padding: auto;
+    margin: auto;
+    background-color: lavender;
+}
+img{
+    width: 500px; 
+}
+div{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+p{
+    color: darkblue;
+}
+h1{
+    border: solid skyblue;
+    border-radius: 15px;
+    background-color: skyblue;
+    text-align: center;
+}
+b, strong, i{
+    color: red;
+}
+.negro{
+    color: black;
+}

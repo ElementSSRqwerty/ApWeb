@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.bodyA{
+    background-image: url(./fotos/Qatar.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1600px;
+}
+.bodyA header, footer{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.bodyA footer{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+}
+.bodyA header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+}
+.bodyB{
+    height: 1600px;
+    background-color: black;
+}
+.bodyB video{
+    position: fixed;    
+    min-height: 100%;
+    min-width: 100%;
+}
+.bodyB header, footer{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+.bodyB header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.bodyB footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}

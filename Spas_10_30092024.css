@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.video1{
+    height: 315px;
+    width: 560px;
+}
+iframe{
+    width: 560px; 
+    height: 315px;
+}

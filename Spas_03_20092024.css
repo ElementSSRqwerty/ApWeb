@@ -1,0 +1,19 @@
+body{
+    padding: auto;
+    margin: auto;
+    background-color: lavender;
+}
+img{
+    width: 500px; 
+}
+p{
+    color: darkblue;
+}
+h1{
+    border: solid skyblue;
+    border-radius: 15px;
+    background-color: skyblue;
+}
+b, strong, i{
+    color: red;
+}

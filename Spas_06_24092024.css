@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(239, 203, 242);
+}
+
+.menuH{
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menuH a:hover{
+    background-color: white;
+    color: black;
+}
+
+.menuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+.menuV a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menuV a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+img{
+    float: left;
+    width: 74%;
+    border: 5px double;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+}
+
+footer-grid, footer-flex {
+    flex: 1 1 45%; 
+    padding: 10px;
+}
+
+.MenuGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    list-style-type: none;
+}
+
+.MenuGrid li {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.MenuFlex {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.MenuFlex li {
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+}

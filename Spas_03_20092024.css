@@ -1,17 +1,20 @@
+head{
+    font-size: 62.5%;
+}
 body{
     padding: auto;
     margin: auto;
     background-color: lavender;
 }
 img{
-    width: 500px; 
+    width: 50rem; 
 }
 p{
     color: darkblue;
 }
 h1{
     border: solid skyblue;
-    border-radius: 15px;
+    border-radius: 1.5rem;
     background-color: skyblue;
 }
 b, strong, i{
